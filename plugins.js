@@ -49,6 +49,7 @@ let controls = new  THREE.OrbitControls(camera,renderer.domElement);
           alphaTest:0.5,
      });
      mesh = new THREE.Line(geometry,material);
+ //  mesh = new THREE.Points(geometry,material);
      scene.add(mesh);
 
 
